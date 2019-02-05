@@ -1,6 +1,7 @@
 // @flow
 import StripeProvider from './components/Provider';
 import injectStripe from './components/inject';
+import useStripe from './components/useStripe';
 import Elements from './components/Elements';
 import Element from './components/Element';
 import PaymentRequestButtonElement from './components/PaymentRequestButtonElement';
@@ -37,6 +38,7 @@ const IdealBankElement = Element('idealBank', {impliedSourceType: 'ideal'});
 export {
   StripeProvider,
   injectStripe,
+  useStripe,
   Elements,
   CardElement,
   CardNumberElement,

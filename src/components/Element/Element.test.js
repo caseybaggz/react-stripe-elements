@@ -2,7 +2,7 @@
 import React from 'react';
 import {mount, shallow} from 'enzyme';
 
-import Element from './Element';
+import Element from './';
 
 describe('Element', () => {
   let elementMock;

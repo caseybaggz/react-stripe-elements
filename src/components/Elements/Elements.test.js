@@ -2,7 +2,7 @@
 import React from 'react';
 import {mount} from 'enzyme';
 
-import Elements from './Elements';
+import Elements from './';
 
 describe('Elements', () => {
   let stripeMock;

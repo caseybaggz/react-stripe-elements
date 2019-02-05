@@ -2,7 +2,7 @@
 import React from 'react';
 import {mount, shallow} from 'enzyme';
 
-import injectStripe from './inject';
+import injectStripe from './';
 
 describe('injectStripe()', () => {
   let WrappedComponent;

@@ -2,7 +2,7 @@
 import React from 'react';
 import {mount, shallow} from 'enzyme';
 
-import PaymentRequestButtonElement from './PaymentRequestButtonElement';
+import PaymentRequestButtonElement from './';
 
 describe('PaymentRequestButtonElement', () => {
   let elementMock;

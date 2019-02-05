@@ -2,7 +2,7 @@
 import React from 'react';
 import {mount, shallow} from 'enzyme';
 
-import StripeProvider from './Provider';
+import StripeProvider from './';
 
 describe('StripeProvider', () => {
   let stripeMockFn;
