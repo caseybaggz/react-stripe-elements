@@ -1,12 +1,12 @@
 // @flow
 import React, {type ComponentType} from 'react';
 
-import {type InjectContext, injectContextTypes} from './Elements';
+import {type InjectContext, injectContextTypes} from '../Elements';
 import {
   type SyncStripeContext,
   type AsyncStripeContext,
   providerContextTypes,
-} from './Provider';
+} from '../Provider';
 
 type Context =
   | (InjectContext & SyncStripeContext)

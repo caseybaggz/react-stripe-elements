@@ -1,8 +1,8 @@
 // @flow
 import React from 'react';
 import PropTypes from 'prop-types';
-import isEqual from '../utils/isEqual';
-import {type ElementContext, elementContextTypes} from './Elements';
+import isEqual from '../../utils/isEqual';
+import {type ElementContext, elementContextTypes} from '../Elements';
 
 type Props = {
   id?: string,
